@@ -14,6 +14,7 @@
     <header id="top" >
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
      <section class="card" id="html-section">
@@ -45,7 +46,19 @@
           <li>git checkout -b branch-name : creates a new branch and switches it to</li>
           <li>git add -A : commit all files in the working branch </li>
           <li>git commit -m : use to associate a message with our commit</li>
+            <li>-m is actually just to associate a "message" </li>
           <li> using class attributes allows us to only add changes to a certain elements but not all the elements </li>
+          <li> How to make a new branch in the command line </li>
+            <li> change directories to where you want to be (cd directoryx )
+              type (git status) to check which branch you are currently in, you should be on the main branch if you are not switch to the main branch by entering git checkout main 
+              in the command line pull down the latest main brain by entering git pull origin main 
+            from the main branch, use git checkout -b branchyouwant (ex: to add a branch named feature/add-html git checkout -b featrue/add-html)
+            confirm you are on the new branch by typing git status 
+            </li>
+          <li> after all of this use git add -A to commit files in the working branch then git commit our changes to our repository
+            use the command git pull origin main to pull the base branch you should see something along the lines of already up to date
+            to push up all of our changes by using the command git push origin branchyouwant
+          </li>
 
         </ul>
       </section>
@@ -53,7 +66,14 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>create a file by typing touch whateverfilenameyouwant in the directy you want use .js for a js file </li>
+          <li>create a variable by typing var whatevernameyouwant = "for strings" 1 for number true/false for boolean </li>
+          <li>used console.log to log the variable to the web console in the browser</li>
+          <li>we connected script.js to index.html by adding a script element under the footer </li>
+          <li> for loops have keyword 'for', three-part conditional statement, code block</li>
+          <li>A variable is a named container that allows us to store date in our code. var </li>
+          <li> control flow is the order in which a computer executed code in a script, javascript goes top to bottom</li>
+          <li> functions allow us to execute different tasks such as conditional statements and for loops when and where we want</li>
 
         </ul>
 
@@ -63,6 +83,8 @@
 
     <footer>
       <p>I can code!</p>
-    </footer>
+    </footer>  
+      <script src="./assets/script.js"></script>
+   
   </body>
 </html>
